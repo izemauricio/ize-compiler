@@ -1,0 +1,51 @@
+int a;
+int b;
+int c;
+int d;
+int e;
+int x;
+int y;
+int z;
+
+boolean b1;
+boolean b2;
+boolean b3;
+boolean b4;
+
+a = 2;
+b = (a^(3^a));		
+c = -b + -a;
+d = b % 7;
+e = ((a + d)^(b-510));          
+printstr("a b c d e   ");
+print(a, b, c, d, e);
+println();
+
+x = 2*a;
+y = d+a-e;
+z = d*2;
+
+printstr("x y z  ");
+print(x, y, z);
+println();
+
+b1 = false;
+
+b2 = (2*a > d+a-e && b > d*2  ) || b1;
+
+print(b1, b2, 2*a > d+a-e && b > d*2);
+println();
+
+b1 = false;
+
+b2 = true;
+
+printstr("DeMorgans  ");
+print(b1, b2, !(b1 && b2), !b1 || !b2, !(b1 || b2), !b1 && !b2);
+println();
+    
+a = 10;
+b = 20;
+    
+printstr("a < b ---- a <= b ---- a == b ---- a >= b ---- a > b ---- a != b ---- ");
+print(a < b, a <= b, a == b, a >= b, a > b, a != b);

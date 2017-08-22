@@ -1,0 +1,58 @@
+int temp;
+int temp1;
+int factorial;
+int k;
+int fib1;
+int fib2;
+int fib3;
+int aa;
+int bb;
+function fact() {
+	if (temp == k) {
+		return ( (factorial*k) );
+	}
+
+    	factorial = factorial * temp;
+
+	temp = temp+1;
+	
+	return ( fact() );
+}
+function fib() {
+	if (temp1 >= k) {
+		return ( fib2 );
+	}
+
+    fib3 = fib1+fib2;
+
+    fib1 = fib2;
+
+    fib2 = fib3;
+
+    temp1 = temp1 + 1;
+	
+return ( fib() );
+}
+printstr("Enter a positive integer or 0 to quit: ");
+read(k);
+printstr("o valor de k = ");
+print(k);
+while (k > 0) {
+        factorial = 1;
+        temp = 1;
+        temp1 = 1;
+        fib1 = 1;
+        fib2 = 1;
+	printstr("fact = ");
+	aa = fact();
+	print(aa);
+	println();
+
+	printstr("fib = ");
+	aa = fib();
+	print( aa );
+	println();
+
+	printstr("Enter a positive integer or 0 to quit: ");
+	read(k);
+}

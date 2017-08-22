@@ -1,0 +1,7 @@
+#!/bin/bash
+echo "STARTED"
+yacc -d yac.y
+lex lex.l
+#gcc -DYYDEBUG y.tab.c lex.yy.c semantics.c SymTab.c IOMngr.c main.c CodeGen.c -o mmm -ll
+cc y.tab.c lex.yy.c Semantics.c SymTab.c IOMngr.c main.c CodeGen.c -o izelang
+echo "FINISHED"
