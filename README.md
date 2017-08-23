@@ -1,7 +1,6 @@
 # izelang
-Compiler
 
-DEPENDENCIAS:
+## Dependency
 
 flex (lex):
 sudo apt-get install flex
@@ -9,13 +8,14 @@ sudo apt-get install flex
 bison (yacc):
 sudo apt-get install bison
 
-TO COMPILE:
-make a copy of the source folder
-execute the script-to-compile inside the source copied
-it will create the compiler executable izelang
+## Compilation
+Copy and paste the source folder
+Give execution power to the script: (chmod +x ./script)
+Execute the script inside the copied folder
+It will create the executable ./izelang
 
-USAGE:
+## Usage
 ./izelang input.izelang (debug.txt) output.mips
 
-TEST MIPS CODE GENERATED:
-mars 4.5
+## Test
+Mars 4.5
