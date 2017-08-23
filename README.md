@@ -1,6 +1,16 @@
 # izelang
 
+This project is a compiler for the Compilers Course @ University of Wisconsin
+
+Input:
+Izelang source-code file.
+
+Output:
+MIPS file.
+
 ## Dependency
+
+cc:
 
 flex (lex):
 sudo apt-get install flex
