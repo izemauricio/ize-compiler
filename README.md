@@ -22,8 +22,5 @@ sudo apt-get install bison
 chmod +x ./script
 - Execute the script to compile
 
-## Usage
-./izelang input.izelang (debug.txt) output.mips
-
 ## MIPS simulator
 Mars 4.5
