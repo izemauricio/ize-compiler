@@ -1,31 +1,29 @@
-# izelang
+# ize-compiler
 
 This project is a compiler for the Compilers Course @ University of Wisconsin
 
-Input:
-Izelang source-code file.
+## Usage:
 
-Output:
-MIPS file.
+./ize-compiler <input.ize> [debug.txt] <output.mips>
 
 ## Dependency
 
-cc:
-
-flex (lex):
+- flex/lex
 sudo apt-get install flex
 
-bison (yacc):
+- bison/yacc
 sudo apt-get install bison
 
-## Compilation
-Copy and paste the source folder
-Give execution power to the script: (chmod +x ./script)
-Execute the script inside the copied folder
-It will create the executable ./izelang
+## How to compile
+
+- Install dependecies
+- Clone the repository
+- Give exec permission to the shell script 
+chmod +x ./script
+- Execute the script to compile
 
 ## Usage
 ./izelang input.izelang (debug.txt) output.mips
 
-## Test
+## MIPS simulator
 Mars 4.5
