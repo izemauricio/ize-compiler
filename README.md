@@ -1,6 +1,6 @@
 # ize-compiler
 
-This project is a compiler for the Compilers Course @ University of Wisconsin
+Final project for compiler class at University of Wisconsin
 
 ## Usage:
 
